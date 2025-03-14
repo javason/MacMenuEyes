@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23F2066E2D83B82700B091D8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 23F2066D2D83B82700B091D8 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2357A2E22D826D8000A9D192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2357A2C82D826D7F00A9D192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2357A2CF2D826D7F00A9D192;
+			remoteInfo = MacMenuEyes;
+		};
+		2357A2EC2D826D8000A9D192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2357A2C82D826D7F00A9D192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2357A2CF2D826D7F00A9D192;
+			remoteInfo = MacMenuEyes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2357A2D02D826D7F00A9D192 /* MacMenuEyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacMenuEyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2357A2E12D826D8000A9D192 /* MacMenuEyesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacMenuEyesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2357A2EB2D826D8000A9D192 /* MacMenuEyesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacMenuEyesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F2066D2D83B82700B091D8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		23F206252D82C86800B091D8 /* Exceptions for "MacMenuEyes" folder in "MacMenuEyes" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2357A2CF2D826D7F00A9D192 /* MacMenuEyes */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2357A2D22D826D7F00A9D192 /* MacMenuEyes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				23F206252D82C86800B091D8 /* Exceptions for "MacMenuEyes" folder in "MacMenuEyes" target */,
+			);
+			path = MacMenuEyes;
+			sourceTree = "<group>";
+		};
+		2357A2E42D826D8000A9D192 /* MacMenuEyesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacMenuEyesTests;
+			sourceTree = "<group>";
+		};
+		2357A2EE2D826D8000A9D192 /* MacMenuEyesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacMenuEyesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2357A2CD2D826D7F00A9D192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2357A2DE2D826D8000A9D192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2357A2E82D826D8000A9D192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2357A2C72D826D7F00A9D192 = {
+			isa = PBXGroup;
+			children = (
+				23F2066D2D83B82700B091D8 /* README.md */,
+				2357A2D22D826D7F00A9D192 /* MacMenuEyes */,
+				2357A2E42D826D8000A9D192 /* MacMenuEyesTests */,
+				2357A2EE2D826D8000A9D192 /* MacMenuEyesUITests */,
+				2357A2D12D826D7F00A9D192 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2357A2D12D826D7F00A9D192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2357A2D02D826D7F00A9D192 /* MacMenuEyes.app */,
+				2357A2E12D826D8000A9D192 /* MacMenuEyesTests.xctest */,
+				2357A2EB2D826D8000A9D192 /* MacMenuEyesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2357A2CF2D826D7F00A9D192 /* MacMenuEyes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2357A2F52D826D8000A9D192 /* Build configuration list for PBXNativeTarget "MacMenuEyes" */;
+			buildPhases = (
+				2357A2CC2D826D7F00A9D192 /* Sources */,
+				2357A2CD2D826D7F00A9D192 /* Frameworks */,
+				2357A2CE2D826D7F00A9D192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2357A2D22D826D7F00A9D192 /* MacMenuEyes */,
+			);
+			name = MacMenuEyes;
+			packageProductDependencies = (
+			);
+			productName = MacMenuEyes;
+			productReference = 2357A2D02D826D7F00A9D192 /* MacMenuEyes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2357A2E02D826D8000A9D192 /* MacMenuEyesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2357A2F82D826D8000A9D192 /* Build configuration list for PBXNativeTarget "MacMenuEyesTests" */;
+			buildPhases = (
+				2357A2DD2D826D8000A9D192 /* Sources */,
+				2357A2DE2D826D8000A9D192 /* Frameworks */,
+				2357A2DF2D826D8000A9D192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2357A2E32D826D8000A9D192 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2357A2E42D826D8000A9D192 /* MacMenuEyesTests */,
+			);
+			name = MacMenuEyesTests;
+			packageProductDependencies = (
+			);
+			productName = MacMenuEyesTests;
+			productReference = 2357A2E12D826D8000A9D192 /* MacMenuEyesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2357A2EA2D826D8000A9D192 /* MacMenuEyesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2357A2FB2D826D8000A9D192 /* Build configuration list for PBXNativeTarget "MacMenuEyesUITests" */;
+			buildPhases = (
+				2357A2E72D826D8000A9D192 /* Sources */,
+				2357A2E82D826D8000A9D192 /* Frameworks */,
+				2357A2E92D826D8000A9D192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2357A2ED2D826D8000A9D192 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2357A2EE2D826D8000A9D192 /* MacMenuEyesUITests */,
+			);
+			name = MacMenuEyesUITests;
+			packageProductDependencies = (
+			);
+			productName = MacMenuEyesUITests;
+			productReference = 2357A2EB2D826D8000A9D192 /* MacMenuEyesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2357A2C82D826D7F00A9D192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					2357A2CF2D826D7F00A9D192 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					2357A2E02D826D8000A9D192 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2357A2CF2D826D7F00A9D192;
+					};
+					2357A2EA2D826D8000A9D192 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2357A2CF2D826D7F00A9D192;
+					};
+				};
+			};
+			buildConfigurationList = 2357A2CB2D826D7F00A9D192 /* Build configuration list for PBXProject "MacMenuEyes" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2357A2C72D826D7F00A9D192;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2357A2D12D826D7F00A9D192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2357A2CF2D826D7F00A9D192 /* MacMenuEyes */,
+				2357A2E02D826D8000A9D192 /* MacMenuEyesTests */,
+				2357A2EA2D826D8000A9D192 /* MacMenuEyesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2357A2CE2D826D7F00A9D192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F2066E2D83B82700B091D8 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2357A2DF2D826D8000A9D192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2357A2E92D826D8000A9D192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2357A2CC2D826D7F00A9D192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2357A2DD2D826D8000A9D192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2357A2E72D826D8000A9D192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2357A2E32D826D8000A9D192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2357A2CF2D826D7F00A9D192 /* MacMenuEyes */;
+			targetProxy = 2357A2E22D826D8000A9D192 /* PBXContainerItemProxy */;
+		};
+		2357A2ED2D826D8000A9D192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2357A2CF2D826D7F00A9D192 /* MacMenuEyes */;
+			targetProxy = 2357A2EC2D826D8000A9D192 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2357A2F32D826D8000A9D192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2357A2F42D826D8000A9D192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2357A2F62D826D8000A9D192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = MacMenuEyes/MacMenuEyes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"MacMenuEyes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(PROJECT_DIR)/MacMenuEyes/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MacMenuEyes;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.javason.MacMenuEyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2357A2F72D826D8000A9D192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = MacMenuEyes/MacMenuEyes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"MacMenuEyes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(PROJECT_DIR)/MacMenuEyes/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MacMenuEyes;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.javason.MacMenuEyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2357A2F92D826D8000A9D192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.javason.MacMenuEyesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacMenuEyes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacMenuEyes";
+			};
+			name = Debug;
+		};
+		2357A2FA2D826D8000A9D192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.javason.MacMenuEyesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacMenuEyes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacMenuEyes";
+			};
+			name = Release;
+		};
+		2357A2FC2D826D8000A9D192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.javason.MacMenuEyesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacMenuEyes;
+			};
+			name = Debug;
+		};
+		2357A2FD2D826D8000A9D192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.javason.MacMenuEyesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacMenuEyes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2357A2CB2D826D7F00A9D192 /* Build configuration list for PBXProject "MacMenuEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2357A2F32D826D8000A9D192 /* Debug */,
+				2357A2F42D826D8000A9D192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2357A2F52D826D8000A9D192 /* Build configuration list for PBXNativeTarget "MacMenuEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2357A2F62D826D8000A9D192 /* Debug */,
+				2357A2F72D826D8000A9D192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2357A2F82D826D8000A9D192 /* Build configuration list for PBXNativeTarget "MacMenuEyesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2357A2F92D826D8000A9D192 /* Debug */,
+				2357A2FA2D826D8000A9D192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2357A2FB2D826D8000A9D192 /* Build configuration list for PBXNativeTarget "MacMenuEyesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2357A2FC2D826D8000A9D192 /* Debug */,
+				2357A2FD2D826D8000A9D192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2357A2C82D826D7F00A9D192 /* Project object */;
+}
