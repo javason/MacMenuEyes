@@ -1,6 +1,6 @@
 # MacMenuEyes
 
-MacMenuEyes는 macOS의 상태 표시줄에서 눈 모양의 UI를 제공하는 애플리케이션입니다. 사용자의 마우스 움직임에 따라 눈의 위치와 색상이 변합니다.
+MacMenuEyes는 macOS의 상단 menubar에서 눈 모양의 UI를 제공하는 애플리케이션입니다. 사용자의 마우스 움직임에 따라 눈의 위치와 색상이 변합니다.
 
 ## 실행 모습
 ![MacMenuEyes 실행 모습](MacMenuEyes_screen_ani.gif)
